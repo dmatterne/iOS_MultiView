@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func returned(seque: UIStoryboardSegue) {
+        
+        print("Seque Unwound")
+        
+    }
+    
+    
+    
 }
 

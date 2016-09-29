@@ -12,6 +12,8 @@
 		8267F1801D9D49CC00D47D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8267F17E1D9D49CC00D47D2B /* Main.storyboard */; };
 		8267F1821D9D49CC00D47D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8267F1811D9D49CC00D47D2B /* Assets.xcassets */; };
 		8267F1851D9D49CC00D47D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8267F1831D9D49CC00D47D2B /* LaunchScreen.storyboard */; };
+		8267F18D1D9D4A1800D47D2B /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8267F18C1D9D4A1800D47D2B /* MoneyViewController.swift */; };
+		8267F18F1D9D4A3500D47D2B /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8267F18E1D9D4A3500D47D2B /* TempViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8267F1811D9D49CC00D47D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8267F1841D9D49CC00D47D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8267F1861D9D49CC00D47D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8267F18C1D9D4A1800D47D2B /* MoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		8267F18E1D9D4A3500D47D2B /* TempViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				8267F17A1D9D49CB00D47D2B /* AppDelegate.swift */,
 				8267F17C1D9D49CC00D47D2B /* ViewController.swift */,
 				8267F17E1D9D49CC00D47D2B /* Main.storyboard */,
+				8267F18C1D9D4A1800D47D2B /* MoneyViewController.swift */,
+				8267F18E1D9D4A3500D47D2B /* TempViewController.swift */,
 				8267F1811D9D49CC00D47D2B /* Assets.xcassets */,
 				8267F1831D9D49CC00D47D2B /* LaunchScreen.storyboard */,
 				8267F1861D9D49CC00D47D2B /* Info.plist */,
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8267F18F1D9D4A3500D47D2B /* TempViewController.swift in Sources */,
+				8267F18D1D9D4A1800D47D2B /* MoneyViewController.swift in Sources */,
 				8267F17D1D9D49CC00D47D2B /* ViewController.swift in Sources */,
 				8267F17B1D9D49CB00D47D2B /* AppDelegate.swift in Sources */,
 			);
