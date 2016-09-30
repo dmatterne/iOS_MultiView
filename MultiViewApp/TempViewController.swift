@@ -39,7 +39,7 @@ class TempViewController: UIViewController {
     
     @IBAction func convertToFahrenheit(_ sender: UIButton) {
         
-        textCelsius.resignFirstResponder()
+//        textCelsius.resignFirstResponder()
         
         if let temp_celsius = Int(textCelsius.text!) {
             let result =  temp_celsius  * 9 / 5 + 32
